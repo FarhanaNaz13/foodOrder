@@ -1,0 +1,156 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.e_commerce"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="18"
+8-->C:\Users\Student\Desktop\New folder\food\ecommerceAndroid\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\Student\Desktop\New folder\food\ecommerceAndroid\app\src\main\AndroidManifest.xml
+10
+11    <permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Student\Desktop\New folder\food\ecommerceAndroid\app\src\main\AndroidManifest.xml:5:5-62
+11-->C:\Users\Student\Desktop\New folder\food\ecommerceAndroid\app\src\main\AndroidManifest.xml:5:17-59
+12
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->C:\Users\Student\Desktop\New folder\food\ecommerceAndroid\app\src\main\AndroidManifest.xml:7:5-79
+13-->C:\Users\Student\Desktop\New folder\food\ecommerceAndroid\app\src\main\AndroidManifest.xml:7:22-76
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->C:\Users\Student\Desktop\New folder\food\ecommerceAndroid\app\src\main\AndroidManifest.xml:8:5-81
+14-->C:\Users\Student\Desktop\New folder\food\ecommerceAndroid\app\src\main\AndroidManifest.xml:8:22-78
+15    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+15-->C:\Users\Student\Desktop\New folder\food\ecommerceAndroid\app\src\main\AndroidManifest.xml:9:5-98
+15-->C:\Users\Student\Desktop\New folder\food\ecommerceAndroid\app\src\main\AndroidManifest.xml:9:22-95
+16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+16-->C:\Users\Student\Desktop\New folder\food\ecommerceAndroid\app\src\main\AndroidManifest.xml:10:5-81
+16-->C:\Users\Student\Desktop\New folder\food\ecommerceAndroid\app\src\main\AndroidManifest.xml:10:22-78
+17    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+17-->C:\Users\Student\Desktop\New folder\food\ecommerceAndroid\app\src\main\AndroidManifest.xml:11:5-85
+17-->C:\Users\Student\Desktop\New folder\food\ecommerceAndroid\app\src\main\AndroidManifest.xml:11:22-82
+18    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+18-->C:\Users\Student\Desktop\New folder\food\ecommerceAndroid\app\src\main\AndroidManifest.xml:12:5-79
+18-->C:\Users\Student\Desktop\New folder\food\ecommerceAndroid\app\src\main\AndroidManifest.xml:12:22-76
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->C:\Users\Student\Desktop\New folder\food\ecommerceAndroid\app\src\main\AndroidManifest.xml:13:5-67
+19-->C:\Users\Student\Desktop\New folder\food\ecommerceAndroid\app\src\main\AndroidManifest.xml:13:22-64
+20
+21    <uses-feature
+21-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Student\AppData\Local\Android\Sdk\caches\transforms-2\files-2.1\8dd8e7c17a85a0661f86487a4c192d89\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+22        android:glEsVersion="0x00020000"
+22-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Student\AppData\Local\Android\Sdk\caches\transforms-2\files-2.1\8dd8e7c17a85a0661f86487a4c192d89\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+23        android:required="true" />
+23-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Student\AppData\Local\Android\Sdk\caches\transforms-2\files-2.1\8dd8e7c17a85a0661f86487a4c192d89\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+24
+25    <application
+25-->C:\Users\Student\Desktop\New folder\food\ecommerceAndroid\app\src\main\AndroidManifest.xml:15:5-49:19
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.3.0] C:\Users\Student\AppData\Local\Android\Sdk\caches\transforms-2\files-2.1\513efa8b232871d058fdda7e90972b20\core-1.3.0\AndroidManifest.xml:24:18-86
+27        android:debuggable="true"
+28        android:icon="@mipmap/ic_launcher"
+28-->C:\Users\Student\Desktop\New folder\food\ecommerceAndroid\app\src\main\AndroidManifest.xml:16:9-43
+29        android:label="@string/app_name"
+29-->C:\Users\Student\Desktop\New folder\food\ecommerceAndroid\app\src\main\AndroidManifest.xml:17:9-41
+30        android:roundIcon="@mipmap/ic_launcher_round"
+30-->C:\Users\Student\Desktop\New folder\food\ecommerceAndroid\app\src\main\AndroidManifest.xml:18:9-54
+31        android:supportsRtl="true"
+31-->C:\Users\Student\Desktop\New folder\food\ecommerceAndroid\app\src\main\AndroidManifest.xml:19:9-35
+32        android:testOnly="true"
+33        android:theme="@style/AppTheme" >
+33-->C:\Users\Student\Desktop\New folder\food\ecommerceAndroid\app\src\main\AndroidManifest.xml:20:9-40
+34        <activity
+34-->C:\Users\Student\Desktop\New folder\food\ecommerceAndroid\app\src\main\AndroidManifest.xml:21:9-24:59
+35            android:name="com.example.e_commerce.ui.TabbedActivity.AccountActivity"
+35-->C:\Users\Student\Desktop\New folder\food\ecommerceAndroid\app\src\main\AndroidManifest.xml:22:13-62
+36            android:label="@string/title_activity_account"
+36-->C:\Users\Student\Desktop\New folder\food\ecommerceAndroid\app\src\main\AndroidManifest.xml:23:13-59
+37            android:theme="@style/AppTheme.NoActionBar" />
+37-->C:\Users\Student\Desktop\New folder\food\ecommerceAndroid\app\src\main\AndroidManifest.xml:24:13-56
+38        <activity
+38-->C:\Users\Student\Desktop\New folder\food\ecommerceAndroid\app\src\main\AndroidManifest.xml:25:9-27:59
+39            android:name="com.example.e_commerce.products.MapsActivity"
+39-->C:\Users\Student\Desktop\New folder\food\ecommerceAndroid\app\src\main\AndroidManifest.xml:26:13-50
+40            android:label="@string/title_activity_maps" />
+40-->C:\Users\Student\Desktop\New folder\food\ecommerceAndroid\app\src\main\AndroidManifest.xml:27:13-56
+41        <activity android:name="com.example.e_commerce.login.ForgetPasswordActivity" />
+41-->C:\Users\Student\Desktop\New folder\food\ecommerceAndroid\app\src\main\AndroidManifest.xml:28:9-66
+41-->C:\Users\Student\Desktop\New folder\food\ecommerceAndroid\app\src\main\AndroidManifest.xml:28:19-63
+42        <activity android:name="com.example.e_commerce.login.LoginActivity" >
+42-->C:\Users\Student\Desktop\New folder\food\ecommerceAndroid\app\src\main\AndroidManifest.xml:29:9-35:20
+42-->C:\Users\Student\Desktop\New folder\food\ecommerceAndroid\app\src\main\AndroidManifest.xml:29:19-54
+43            <intent-filter>
+43-->C:\Users\Student\Desktop\New folder\food\ecommerceAndroid\app\src\main\AndroidManifest.xml:30:13-34:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->C:\Users\Student\Desktop\New folder\food\ecommerceAndroid\app\src\main\AndroidManifest.xml:31:17-69
+44-->C:\Users\Student\Desktop\New folder\food\ecommerceAndroid\app\src\main\AndroidManifest.xml:31:25-66
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->C:\Users\Student\Desktop\New folder\food\ecommerceAndroid\app\src\main\AndroidManifest.xml:33:17-77
+46-->C:\Users\Student\Desktop\New folder\food\ecommerceAndroid\app\src\main\AndroidManifest.xml:33:27-74
+47            </intent-filter>
+48        </activity>
+49        <activity android:name="com.example.e_commerce.shoppingcart.ShoppingCartActivity" />
+49-->C:\Users\Student\Desktop\New folder\food\ecommerceAndroid\app\src\main\AndroidManifest.xml:36:9-71
+49-->C:\Users\Student\Desktop\New folder\food\ecommerceAndroid\app\src\main\AndroidManifest.xml:36:19-68
+50        <activity android:name="com.example.e_commerce.login.RegisterActivity" />
+50-->C:\Users\Student\Desktop\New folder\food\ecommerceAndroid\app\src\main\AndroidManifest.xml:37:9-60
+50-->C:\Users\Student\Desktop\New folder\food\ecommerceAndroid\app\src\main\AndroidManifest.xml:37:19-57
+51        <activity
+51-->C:\Users\Student\Desktop\New folder\food\ecommerceAndroid\app\src\main\AndroidManifest.xml:38:9-44:59
+52            android:name="com.example.e_commerce.products.ChooseProductActivity"
+52-->C:\Users\Student\Desktop\New folder\food\ecommerceAndroid\app\src\main\AndroidManifest.xml:39:13-59
+53            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale"
+53-->C:\Users\Student\Desktop\New folder\food\ecommerceAndroid\app\src\main\AndroidManifest.xml:40:13-90
+54            android:label="@string/choose_product_label"
+54-->C:\Users\Student\Desktop\New folder\food\ecommerceAndroid\app\src\main\AndroidManifest.xml:41:13-57
+55            android:launchMode="singleTop"
+55-->C:\Users\Student\Desktop\New folder\food\ecommerceAndroid\app\src\main\AndroidManifest.xml:42:13-43
+56            android:screenOrientation="portrait"
+56-->C:\Users\Student\Desktop\New folder\food\ecommerceAndroid\app\src\main\AndroidManifest.xml:43:13-49
+57            android:windowSoftInputMode="adjustNothing" />
+57-->C:\Users\Student\Desktop\New folder\food\ecommerceAndroid\app\src\main\AndroidManifest.xml:44:13-56
+58
+59        <meta-data
+59-->C:\Users\Student\Desktop\New folder\food\ecommerceAndroid\app\src\main\AndroidManifest.xml:46:9-48:55
+60            android:name="com.google.android.geo.API_KEY"
+60-->C:\Users\Student\Desktop\New folder\food\ecommerceAndroid\app\src\main\AndroidManifest.xml:47:13-58
+61            android:value="@string/google_maps_key" />
+61-->C:\Users\Student\Desktop\New folder\food\ecommerceAndroid\app\src\main\AndroidManifest.xml:48:13-52
+62        <!-- Needs to be explicitly declared on P+ -->
+63        <uses-library
+63-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Student\AppData\Local\Android\Sdk\caches\transforms-2\files-2.1\8dd8e7c17a85a0661f86487a4c192d89\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+64            android:name="org.apache.http.legacy"
+64-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Student\AppData\Local\Android\Sdk\caches\transforms-2\files-2.1\8dd8e7c17a85a0661f86487a4c192d89\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+65            android:required="false" />
+65-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Student\AppData\Local\Android\Sdk\caches\transforms-2\files-2.1\8dd8e7c17a85a0661f86487a4c192d89\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+66
+67        <provider
+67-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Student\AppData\Local\Android\Sdk\caches\transforms-2\files-2.1\07affe4d4ee75ee78ff2e4c9dedbaa4e\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+68            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+68-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Student\AppData\Local\Android\Sdk\caches\transforms-2\files-2.1\07affe4d4ee75ee78ff2e4c9dedbaa4e\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+69            android:authorities="com.example.e_commerce.lifecycle-process"
+69-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Student\AppData\Local\Android\Sdk\caches\transforms-2\files-2.1\07affe4d4ee75ee78ff2e4c9dedbaa4e\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+70            android:exported="false"
+70-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Student\AppData\Local\Android\Sdk\caches\transforms-2\files-2.1\07affe4d4ee75ee78ff2e4c9dedbaa4e\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+71            android:multiprocess="true" />
+71-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Student\AppData\Local\Android\Sdk\caches\transforms-2\files-2.1\07affe4d4ee75ee78ff2e4c9dedbaa4e\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+72
+73        <activity
+73-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Student\AppData\Local\Android\Sdk\caches\transforms-2\files-2.1\bfa69299c70613d916dc093c901431a2\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+74            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+74-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Student\AppData\Local\Android\Sdk\caches\transforms-2\files-2.1\bfa69299c70613d916dc093c901431a2\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+75            android:exported="false"
+75-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Student\AppData\Local\Android\Sdk\caches\transforms-2\files-2.1\bfa69299c70613d916dc093c901431a2\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+76            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+76-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Student\AppData\Local\Android\Sdk\caches\transforms-2\files-2.1\bfa69299c70613d916dc093c901431a2\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+77
+78        <meta-data
+78-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Student\AppData\Local\Android\Sdk\caches\transforms-2\files-2.1\b5a3f39bf4ddacacabf43b64773b9e83\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+79            android:name="com.google.android.gms.version"
+79-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Student\AppData\Local\Android\Sdk\caches\transforms-2\files-2.1\b5a3f39bf4ddacacabf43b64773b9e83\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+80            android:value="@integer/google_play_services_version" />
+80-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Student\AppData\Local\Android\Sdk\caches\transforms-2\files-2.1\b5a3f39bf4ddacacabf43b64773b9e83\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+81    </application>
+82
+83</manifest>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/account_link"
+        android:title="@string/your_account" />
+    <item
+        android:id="@+id/location_link"
+        android:title="Get store location" />
+    <item
+        android:id="@+id/logout_link"
+        android:title="@string/logout" />
+</menu>
